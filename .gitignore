@@ -1,0 +1,63 @@
+# ----------------------------------
+# Delphi fordítási kimenetek
+# ----------------------------------
+*.exe
+*.dll
+*.bpl
+*.dcu
+*.map
+*.rsm
+*.tds
+*.drc
+*.obj
+*.lib
+
+# ----------------------------------
+# Delphi projekt / IDE által generált fájlok
+# ----------------------------------
+*.local
+*.identcache
+*.projdata
+*.stat
+*.dof
+*.cfg
+*.skincfg
+*.otares
+*.deployproj
+
+# ----------------------------------
+# Delphi IDE cache és session fájlok
+# ----------------------------------
+__history/
+*.~*
+*.bak
+*.tmp
+
+# ----------------------------------
+# Windows specifikus
+# ----------------------------------
+Thumbs.db
+Desktop.ini
+
+# ----------------------------------
+# Logok
+# ----------------------------------
+*.log
+
+# ----------------------------------
+# Build és output könyvtárak (ha vannak)
+# ----------------------------------
+/Win32/
+/Win64/
+/Debug/
+/Release/
+/Binaries/
+/Output/
+
+# ----------------------------------
+# Telepítők, csomagolt binárisok
+# (ha nem akarod verziózni őket)
+# ----------------------------------
+*.msi
+*.zip
+*.rar
