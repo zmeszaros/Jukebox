@@ -1,0 +1,50 @@
+Jukebox v1.3
+------------
+
+Használati utasítás:
+--------------------
+
+1. Billentyûk: 
+--------------
+
+1.1. Vezérlõ billentyûk: (a billentyûk a numerikus padra vonatkoznak)
+-----------------------
+- Albumok közötti léptetés elõre : 2
+- Albumok közötti léptetés hátra : 8
+- Számok közötti léptetés elõre  : 3
+- Számok közötti léptetés hátra  : 9
+- Szám kiválasztása              : 5
+- A Playlista kiürítése          : 0
+- Hangerõ fel                    : +
+- Hangerõ le                     : -
+- 50 Ft-ot dobtak be             : 7 
+- 100 Ft-ot dobtak be            : 4
+- Kilépés a programból           : * 
+
+1.2. Funkció billentyûk:
+------------------------
+- F2 : Háttérkép kiválasztása és betöltése
+- F3 : Új album felvitele
+- F4 : Adatbázisok módosítása
+- F5 : Statisztikák
+- F8 : Beállítások
+
+2. Program használata:
+----------------------
+A program induláskor automatikusan elindul, amit a 'Beállítások' menüben lehet aktiválni és ugyanitt letiltani.
+Itt lehet beállítani, hogy kilépés után a gép lekapcsolja-e magát vagy ne.
+A zenék lejátszásához be kell állítani a Winamp elérési útvonalát a 'Beállítások' menüben.
+A programkönyvtárban található egy 'Mentesek' alkönyvtár, amelybõl a program induláskor átmásolja az adatbázisokat, kilépéskor pedig visszaírja oda.
+Így esetleges sérülés vagy áramszünet esetén, újraindítás után, gond nélkül tud indulni a program.
+Ezért az adatbázisokat csak a programon keresztül módosítsuk.
+Áramszünet vagy kikapcsolás esetén, ha a Playlista nem üres, akkor újraindítás után a lejátszás folytatódik ott, ahol megszakadt.
+Természetesen a szám elejétõl kezdve.
+Ha nem kívánjuk folytatni a lejátszást, akkor a '0' gombbal törölhetjül a listát.
+
+A program az mp3 fileok IDTag-jait nem módosítja, csak felhasználja. 
+Így, ha módosítjuk a programból egy zeneszám adatait, az csak az adatbázisban fog jelentkezni.
+
+3. Friss:
+---------
+Ha van a géphez kapcsolva külsõ eszköz, akkor annak a hangját leveszi lejátszáskor.
+
